@@ -40,3 +40,20 @@ h1 {
 #author_light {
     color: var(--boo-author_light);
 }
+
+.bg_yellow {
+    background-color: yellow;
+}
+
+thead {
+    background-color: var(--boo-thead);
+    color: white;
+}
+
+#row_1 {
+    background-color: var(--boo-tbody);
+}
+
+#row_3 {
+    background-color: var(--boo-tbody);
+}
