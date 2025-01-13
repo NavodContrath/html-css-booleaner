@@ -78,3 +78,7 @@ h3 {
     color: white;
     font-size: larger;
 }
+
+#site_footer {
+    color: var(--boo-author_light);
+}
