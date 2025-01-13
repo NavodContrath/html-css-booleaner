@@ -1,8 +1,14 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
 :root {
     --boo-head: #4ea0ff;
-    --boo-author: #2fafe7;
+    --boo-author_light: #2fafe7;
     --boo-thead: #20a9e5;
     --boo-tbody: #b1e5f2;
+    --boo-author_grey: #858585;
 }
 
 #site_header {
@@ -15,6 +21,22 @@
 #logo {
     width: 25%;
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     left: 0;
+}
+
+#title {
+    margin: 10px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.author_grey {
+    color: var(--boo-author_grey);
+}
+
+#author_light {
+    color: var(--boo-author_light);
 }
