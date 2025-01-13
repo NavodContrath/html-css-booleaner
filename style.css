@@ -57,3 +57,24 @@ thead {
 #row_3 {
     background-color: var(--boo-tbody);
 }
+
+h3 {
+    color: grey;
+}
+
+
+#bonus_img1 {
+    width: 312px;
+    height: 208px;
+    background-image: url(img/monitor.jpg);
+    color: white;
+    font-size: larger;
+}
+
+#bonus_img2 {
+    width: 312px;
+    height: 208px;
+    background-image: url(img/graph.jpg);
+    color: white;
+    font-size: larger;
+}
