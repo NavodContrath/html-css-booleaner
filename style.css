@@ -31,14 +31,21 @@ body {
 
 h1 {
     font-size: 50px;
+    margin-bottom: 0;
 }
 
 .author_grey {
     color: var(--boo-author_grey);
+    font-weight: bold;
 }
 
 #author_light {
     color: var(--boo-author_light);
+    font-weight: bold;
+}
+
+#photo {
+    margin-top: 20px;
 }
 
 .bg_yellow {
