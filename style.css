@@ -45,6 +45,10 @@ h1 {
     background-color: yellow;
 }
 
+table {
+    border-collapse: collapse;
+}
+
 thead {
     background-color: var(--boo-thead);
     color: white;
@@ -56,6 +60,10 @@ thead {
 
 #row_3 {
     background-color: var(--boo-tbody);
+}
+
+.r50 {
+    width: 50%;
 }
 
 h3 {
